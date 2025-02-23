@@ -24,3 +24,4 @@ yarn.lock
 *.log
 *.sqlite
 *.swp
+node_modules
