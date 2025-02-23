@@ -22,4 +22,4 @@ A website built for a plumbing business. Features a clean design focused on simp
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/kwoeser/dakpa-plumbing.git
+git clone git@github.com:kwoeser/dakpa-plumbing.git
