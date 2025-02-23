@@ -1,0 +1,26 @@
+# Ignore node_modules and build artifacts
+node_modules/
+.next/
+out/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+
+# VS Code settings
+.vscode/
+
+# Dependency lock files (keep package-lock.json, but ignore yarn.lock if using npm)
+yarn.lock
+
+# Mac system files
+.DS_Store
+
+# Ignore large files accidentally committed
+*.log
+*.sqlite
+*.swp
