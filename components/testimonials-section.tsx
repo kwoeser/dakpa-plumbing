@@ -4,21 +4,21 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 
 const testimonials = [
   {
-    name: "Sarah Johnson",
-    location: "Portland Heights",
+    name: "Tenzin Sherab",
+    location: "Gresham",
     rating: 5,
     text: "Excellent service! They responded quickly to my emergency call and fixed the issue professionally.",
   },
   {
-    name: "Mike Thompson",
-    location: "Pearl District",
+    name: "Tenzin Tsering",
+    location: "Portland",
     rating: 5,
     text: "Very professional and knowledgeable. Fair pricing and great communication throughout the process.",
   },
   {
-    name: "Emily Davis",
+    name: "Sengye",
     location: "Beaverton",
-    rating: 5,
+    rating: 4,
     text: "The team was punctual, professional, and did an amazing job with our bathroom remodel.",
   },
 ]

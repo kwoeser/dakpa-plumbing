@@ -14,6 +14,7 @@ module.exports = {
     },
     extend: {
       colors: {
+        test: "#cc0000",
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
@@ -53,9 +54,15 @@ module.exports = {
         md: "calc(var(--radius) - 2px)",
         sm: "calc(var(--radius) - 4px)",
       },
+      // fontFamily: {
+      //   sans: ["var(--font-sans)", ...fontFamily.sans],
+      // },
       fontFamily: {
-        sans: ["var(--font-sans)", ...fontFamily.sans],
+        serif: ["Cutive", "Georgia", "Libre Baskerville", "Times New Roman", "Times", "serif"],
+        // sans: ["var(--font-sans)", ...fontFamily.sans],
       },
+      
+ 
     },
   },
 }

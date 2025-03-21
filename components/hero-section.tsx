@@ -1,6 +1,6 @@
 import { Phone, Shield, Star, Clock } from "lucide-react"
-
 import { Button } from "@/components/ui/button"
+import { ScheduleForm } from "@/components/schedule-form"
 
 export function HeroSection() {
   return (
@@ -22,9 +22,9 @@ export function HeroSection() {
                 <Phone className="mr-2 size-4" />
                 Call Now for Service
               </Button>
-              <Button size="lg" variant="outline">
-                Get a Free Quote
-              </Button>
+
+              {/* HANDLES SCHUDULING */}
+              <ScheduleForm />
             </div>
             <div className="grid gap-4 md:grid-cols-3">
               <div className="flex items-center space-x-2">
@@ -42,7 +42,7 @@ export function HeroSection() {
             </div>
           </div>
           <div className="flex items-center justify-center">
-            <div className="relative aspect-square w-full max-w-md overflow-hidden rounded-xl">
+            <div className="relative aspect-square w-full max-w-md overflow-hidden rounded-xl border-4 border-primary/10">
               <img
                 alt="Professional plumber at work"
                 className="object-cover"
